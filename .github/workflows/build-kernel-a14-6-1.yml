@@ -49,6 +49,8 @@ jobs:
 
   build-kernel-a14-6-1:
     uses: ./.github/workflows/kernel-a14-6.1.yml
+    with:
+    BBG: "a14"
     secrets: inherit
     with:
       make_release: false
